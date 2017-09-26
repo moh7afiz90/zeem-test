@@ -1,0 +1,29 @@
+{
+  "name": "zeem-test",
+  "version": "1.0.0",
+  "description": "Zeem Test Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moh7afiz90/zeem-test.git"
+  },
+  "author": "Mohanad Elhag",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moh7afiz90/zeem-test/issues"
+  },
+  "homepage": "https://github.com/moh7afiz90/zeem-test#readme",
+  "dependencies": {
+    "bootstrap": "4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
