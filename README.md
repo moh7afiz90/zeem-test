@@ -7,3 +7,8 @@
 - [SASS]()
 - [NPM]()
 - [Popper]()
+
+#### To start
+```
+npm start //on port 3000
+```
