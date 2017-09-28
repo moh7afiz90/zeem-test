@@ -1,0 +1,103 @@
+body {
+  background: url("/assets/img/background-img.png") fixed center no-repeat;
+  font-family: 'Changa', sans-serif; }
+
+.navbar-1 {
+  box-shadow: 2px 2px 5px #edae03;
+  opacity: 0.9;
+  background: #fff;
+  padding-bottom: 20px; }
+  .navbar-1 #nvItem {
+    color: #3b372b; }
+  .navbar-1 .nav-item {
+    font-size: 1rem; }
+  .navbar-1 .btn {
+    background-color: #fff;
+    color: #edae03;
+    border-color: #edae03; }
+
+#main-header {
+  background-color: #fff;
+  box-shadow: #edae03 0px 0px 0px; }
+  #main-header li a {
+    color: #989898;
+    padding-top: 10px;
+    font-size: 1.2em; }
+  #main-header li button {
+    font-size: 1.3em;
+    background-color: #edae03;
+    color: #fff;
+    padding: 10px 50px 10px 50px;
+    margin: 0;
+    float: left;
+    border: none; }
+
+.breadcrumb {
+  background-color: #ffffff !important;
+  float: right; }
+  .breadcrumb li a {
+    color: #989898 !important; }
+
+#main-button {
+  background-color: #ffffff;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-color: #bab19e solid 3px;
+  border-radius: 10px; }
+
+#company-info {
+  float: right; }
+  #company-info h6 {
+    text-align: right; }
+
+.card-img-overlay {
+  text-align: right; }
+  .card-img-overlay h5 {
+    color: #a1957b;
+    font-size: 100%; }
+  .card-img-overlay p {
+    color: #c2baa9;
+    font-size: 100%; }
+  .card-img-overlay h3 {
+    color: #fbc649;
+    font-size: 1em; }
+
+#showcase {
+  box-shadow: 1px 1px 1px 1px #f8f8f7;
+  background-color: #fff; }
+
+#about-company {
+  text-align: right; }
+
+#u-underline {
+  display: inline-block;
+  border-bottom: 3px solid #edae03;
+  padding-bottom: 6px;
+  color: #5b5155; }
+
+.hq-info {
+  background-image: url("/img/hq-info.png") fixed no-repeat; }
+
+.newsletter {
+  text-align: right; }
+  .newsletter input[type="text"] {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    color: #edae03;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .newsletter ::-webkit-input-placeholder {
+    color: #c2baa9;
+    margin-bottom: 10px; }
+
+.footer {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  color: #6e695e; }

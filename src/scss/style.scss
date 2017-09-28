@@ -1,0 +1,139 @@
+
+
+$primary: #edae03;
+
+
+
+
+body{
+    background: url("/assets/img/background-img.png") fixed center no-repeat;
+    font-family: 'Changa', sans-serif;
+}
+
+// NavBar
+.navbar-1{
+  box-shadow: 2px 2px 5px $primary;
+  opacity:0.9;
+  background:#fff;
+  padding-bottom: 20px;
+  
+  #nvItem{
+    color: #3b372b;
+  }
+  .nav-item{
+      font-size: 1rem;
+  }
+  .btn{
+      background-color: #fff;
+      color: #edae03;
+      border-color: #edae03;
+  }
+}
+
+
+#main-header{
+    background-color: #fff;
+    box-shadow: $primary 0px 0px 0px;
+   li a {
+       color:#989898;
+       padding-top: 10px;
+       font-size: 1.2em;
+   }
+   li button{
+       font-size: 1.3em;
+       background-color: $primary;
+       color: #fff;
+       padding: 10px 50px 10px 50px;
+       margin: 0;
+       float: left;
+       border: none;
+   }
+}
+
+.breadcrumb{
+    background-color: #ffffff !important;
+    float: right;
+    li a{
+        color:#989898 !important;
+    }
+}
+// Main Buttons
+#main-button{
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-color: #bab19e solid 3px;
+    border-radius: 10px;
+
+}
+#company-info{
+    float: right;
+    h6{
+        text-align: right;
+    }
+}
+.card-img-overlay{
+    text-align: right;
+
+    h5{
+        color: #a1957b;
+        font-size: 100%;
+        
+    }
+    p{
+        color:#c2baa9;
+        font-size: 100%;
+    }
+    h3{
+        color:#fbc649;
+        font-size: 1em;
+    }
+}
+
+
+#showcase{
+    box-shadow: 1px 1px 1px 1px #f8f8f7;
+    background-color: #fff;
+}
+#about-company{
+    text-align: right;
+}
+#u-underline{
+    display:inline-block;
+    border-bottom:3px solid $primary;
+    padding-bottom:6px;
+    color: #5b5155;
+}
+.hq-info {
+    background-image: url("/img/hq-info.png") fixed no-repeat;
+}
+
+.newsletter{
+    text-align: right;
+    input[type="text"]{
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+        color: $primary;
+   
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    ::-webkit-input-placeholder{
+        color:#c2baa9;
+        margin-bottom: 10px;
+
+    }
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    color: #6e695e;
+}
