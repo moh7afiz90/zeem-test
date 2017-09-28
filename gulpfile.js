@@ -1,6 +1,8 @@
 const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
+const deploy = require('gulp-gh-pages');
+
 
 // Compile Sass & Inject Into Browser
 gulp.task('sass', function(){
@@ -37,6 +39,11 @@ gulp.task('fonts', function(){
 gulp.task('fa', function(){
   return gulp.src('node_modules/font-awesome/css/font-awesome.min.css')
     .pipe(gulp.dest("src/css"));
+});
+// To deplay the app
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
 });
 
 gulp.task('default', ['js', 'serve', 'fa', 'fonts']);
